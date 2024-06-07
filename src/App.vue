@@ -5,12 +5,9 @@ import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
-    AppMain,
     AppHeader,
+    AppMain,
     AppFooter
-  },
-  props: {
-
   },
   data() {
     return {
@@ -18,13 +15,12 @@ export default {
     }
   },
   methods: {
-
+  
   },
   mounted() {
 
-  },
+  }
 }
-
 </script>
 
 <template>
@@ -34,5 +30,5 @@ export default {
 </template>
 
 <style scoped>
-
+  
 </style>
